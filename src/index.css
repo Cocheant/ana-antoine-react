@@ -130,7 +130,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .section {
-    @apply w-full h-screen relative top-24 bg-green
+    @apply w-full h-screen relative  bg-green
   }
 }
 
