@@ -4,6 +4,12 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { FaTimes } from 'react-icons/fa'
 
 const Navbar = () => {
+
+      // nav is starting off false
+  const [nav, setNav] = useState(false)
+  // so when user clicks the hamburger button, it goes from false(!nav) to true(nav)
+  const handleClick = () => setNav(!nav)
+    
     return (
         <header className="header">
             <NavLink to="/" className="w-10 h-10  items-center  justify-start flex font-bold ">
