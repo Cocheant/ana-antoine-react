@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line react/prop-types
 function PhotoBanner({ src }) {
     return (
 
