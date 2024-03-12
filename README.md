@@ -13,3 +13,4 @@ The information we want to display:
 
 We also want a RSVP system that will automatically go into a sheet with the number of people coming, food allergies/intolerances, maybe comments, and songs suggestions. 
 
+Website made with React, TailwindCSS, vite.js, along with a couple of frameworks
