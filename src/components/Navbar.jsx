@@ -35,12 +35,12 @@ const Navbar = () => {
 
 
                 </NavLink>
+              {/* Mobile Menu */}
 
 /*
               <div className=' md:hidden z-10' onClick={handleClick}>
                 {nav ? <FaTimes size={25} color='white' /> : <RxHamburgerMenu size={25}/>}
               </div>
-              {/* Mobile Menu */}
               <ul
                 className={`${
                   nav
