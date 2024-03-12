@@ -18,7 +18,7 @@ const Navbar = () => {
             </NavLink>
 
             <nav className=" flex text-base gap-9 font-light"> //hidden md:flex
-                <NavLink to="/story" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
+                <NavLink to="/story" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}> //className={ 'transition-colors ${({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'} '}
                     <FormattedMessage
                         id="navbar.story"
                         defaultMessage="Our Story"
