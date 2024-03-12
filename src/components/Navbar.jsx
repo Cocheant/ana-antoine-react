@@ -6,9 +6,9 @@ import { FaTimes } from 'react-icons/fa'
 const Navbar = () => {
 
       // nav is starting off false
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false);
   // so when user clicks the hamburger button, it goes from false(!nav) to true(nav)
-  const handleClick = () => setNav(!nav)
+  const handleClick = () => setNav(!nav);
     
     return (
         <header className="header">
