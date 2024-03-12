@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <main className='bg-green'>
+    <main className='bg-green h-screen'>
       <Router>
         <Navbar />
         <Routes>

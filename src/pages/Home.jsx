@@ -5,7 +5,7 @@ import Hero from "../components/Home/Hero"
 const Home = () => {
 
     return (
-        <section className="w-full h-screen relative top-24">
+        <section className="section">
             <Hero />
         </section>
     )

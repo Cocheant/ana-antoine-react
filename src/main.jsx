@@ -6,9 +6,21 @@ import French from './lang/fr.json';
 import Spanish from './lang/es.json';
 import English from './lang/en.json';
 
-const locale = navigator.language;
 
 let lang;
+
+let locale = window.navigator.languages ? window.navigator.languages[0] : null;
+locale = locale || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+
+let shortLang = locale;
+if (shortLang.indexOf('-') !== -1)
+  shortLang = shortLang.split('-')[0];
+
+if (shortLang.indexOf('_') !== -1)
+  shortLang = shortLang.split('_')[0];
+
+console.log(lang, shortLang);
+
 if (locale === "es") {
   lang = Spanish;
 } else {

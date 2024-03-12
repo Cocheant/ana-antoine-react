@@ -5,6 +5,8 @@ import {
     useMap,
 } from 'https://cdn.esm.sh/react-leaflet'
 
+import 'leaflet/dist/leaflet.css';
+
 import { Marker, Popup } from 'leaflet'
 
 const LeafletMap = () => {
@@ -12,7 +14,7 @@ const LeafletMap = () => {
 
     return (
         <div className="w-full h-auto relative ">
-            <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
+            <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} style={{ height: '100vh', width: '100wh' }}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

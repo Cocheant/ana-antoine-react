@@ -42,6 +42,31 @@ body:has(.card[data-color="green"]:hover) {
   background-color: var(--dark-bg);
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--dark-green);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--very-light-orange);
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--very-light-orange);
+}
+
 @layer utilities {
   .max-container {
     @apply max-w-5xl mx-auto sm:p-16 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)];
@@ -103,7 +128,12 @@ body:has(.card[data-color="green"]:hover) {
   .cta-text {
     @apply text-black-500 font-extrabold flex-1 text-3xl max-md:text-center;
   }
+
+  .section {
+    @apply w-full h-screen relative top-24 bg-green
+  }
 }
+
 
 .glassmorphism {
   background: rgba(8, 116, 239, 0.07);

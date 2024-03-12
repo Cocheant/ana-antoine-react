@@ -12,7 +12,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <header className="header">
+        <header className="flex w-full justify-between items-center px-8 py-4  mx-auto bg-green/90 z-10 right-0 -left-0 top-0 sticky">
             <NavLink to="/" className="w-10 h-10  items-center justify-start flex font-bold ">
                 <p className="text-2xl orange-gradient_text hover:#B45309">A&A</p>
 
@@ -55,9 +55,9 @@ const Navbar = () => {
                 </div>
                 <ul
                     className={`${nav
-                        ? 'text-white opacity-100 transform translate-x-0'
-                        : 'opacity-0 transform -translate-y-full'
-                        } transition-transform absolute top-0 left-0 w-full h-screen bg-green/80 flex flex-col justify-center items-center text-2xl`}
+                        ? 'text-white opacity-100 transform translate-x-0 duration-500'
+                        : 'opacity-0 transform -translate-y-full '
+                        } transition-transform  duration-500 absolute top-0 left-0 w-full h-screen bg-green/80 flex flex-col justify-center items-center text-2xl`}
                     onClick={() => setNav(false)}
                 >
                     <NavLink to="/story" className={({ isActive }) => isActive ? 'text-amber-700' : 'text-orange-300'}>
