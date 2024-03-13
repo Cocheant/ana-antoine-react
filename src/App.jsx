@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import { Home, Story, TravelStay, Contact } from './pages'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 
 
@@ -16,6 +17,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
 
         </Routes>
+        <Footer />
+
       </Router>
     </main>
 

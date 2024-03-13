@@ -16,7 +16,23 @@ export default {
         },
         green: {
           DEFAULT: "#23381f"
+        },
+        vlorange: {
+          DEFAULT: "#b18969"
+        },
+        lorange: {
+          DEFAULT: "#c05b3d"
+        },
+        morange: {
+          DEFAULT: "#aa4010"
+        },
+        dorange: {
+          DEFAULT: "#7c0004"
+        },
+        yellow: {
+          DEFAULT: "#D9BA45"
         }
+
       },
       fontFamily: {
         worksans: ["Work Sans", "sans-serif"],
