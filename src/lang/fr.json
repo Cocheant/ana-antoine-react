@@ -2,11 +2,15 @@
     "app.header": "Mariage Ana & Antoine",
 
     "global.names": "Ana & Antoine",
+    "global.inConstruction1": "Désolé, revenez plus tard!",
+    "global.inConstruction2": "En construction",
+    "global.date": " Date à venir! ",
 
     "navbar.story": "Notre Histoire",
     "navbar.travelstay": "Voyage & Séjour",
     "navbar.contact": "Nous contacter",
 
-    "home.hero.gettingmarried": "On va se marier!"
+    "home.hero.gettingmarried": "On va se marier!",
+    "home.secondText": " "
 
 }

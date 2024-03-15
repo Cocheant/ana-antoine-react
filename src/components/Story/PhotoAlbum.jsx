@@ -4,7 +4,7 @@ import firstPic from '/src/assets/img/photos/firstPic.jpg'
 import albufera from '/src/assets/img/photos/albufera.jpg'
 import cascade from '/src/assets/img/photos/cascade.jpeg'
 import weddingAnniv from '/src/assets/img/photos/weddingAnniv.jpg'
-import scotlandBridge from '/src/assets/img/photos/scotlandBridge.jpg'
+import mainHero from '/src/assets/img/photos/mainHero.jpeg'
 
 
 
@@ -13,6 +13,9 @@ import scotlandBridge from '/src/assets/img/photos/scotlandBridge.jpg'
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
+    {
+        original: mainHero,
+    },
     {
         original: firstPic,
     },
@@ -24,15 +27,17 @@ const images = [
     },
     {
         original: weddingAnniv,
-    },
-    {
-        original: scotlandBridge,
-    },
+    }
+
 ];
 
 
 const PhotoAlbum = () => {
-    return <ImageGallery items={images} />;
+    return (
+        <div>
+            <ImageGallery items={images} />
+        </div>
+    );
 
 }
 

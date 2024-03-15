@@ -12,7 +12,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <header className="flex w-full justify-between  p-5 items-center px-8 py-4  mx-auto bg-green/90 z-10 right-0 -left-0 top-0 sticky">
+        <header className="flex  w-full justify-between  p-4 items-center px-8 py-4  mx-auto bg-green/90 z-10 right-0 -left-0 top-0 sticky ">
             <NavLink to="/" className="w-10 h-10  items-center justify-start flex font-bold ">
                 <p className="text-2xl orange-gradient_text hover:#B45309">A&A</p>
 

@@ -1,23 +1,27 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import { Home, Story, TravelStay, Contact } from './pages'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+
 
 
 
 const App = () => {
   return (
-    <main className='bg-green h-screen'>
+    <main className='bg-green h-screen '>
       <Router>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/story" element={<Story />} />
-          <Route path="/travelstay" element={<TravelStay />} />
-          <Route path="/contact" element={<Contact />} />
+        <div className='content '>
 
-        </Routes>
-        <Footer />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/story" element={<Story />} />
+            <Route path="/travelstay" element={<TravelStay />} />
+            <Route path="/contact" element={<Contact />} />
+
+          </Routes>
+
+
+        </div>
 
       </Router>
     </main>

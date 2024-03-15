@@ -1,8 +1,11 @@
+import Footer from "../components/Footer"
+import InConstruction from "../components/InConstruction"
 
 const Contact = () => {
     return (
-        <section className="section">
-
+        <section className=" relative flex-row">
+            <InConstruction />
+            <Footer className="flex " />
         </section>
     )
 }

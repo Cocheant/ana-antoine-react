@@ -21,7 +21,7 @@ const LanguageSelector = () => {
         <div className="w-30 font-medium  h-10 cursor-pointer overflow-x" >
             <div
                 onClick={() => setOpen(!open)}
-                className={`bg-green md:text-base text-sm text-vlorange   w-30 p-2  items-center justify-between rounded ${open && "hidden"}`}
+                className={`bg-green text-base text-vlorange   w-30 p-2  items-center justify-between rounded ${open && "hidden"}`}
             >
                 {selected}
             </div>
@@ -32,7 +32,7 @@ const LanguageSelector = () => {
                 {langs?.map((country) => (
                     <p
                         key={country}
-                        className={`p-2 text-sm md:text-base hover:bg-vlorange hover:text-green text-vlorange bg-green
+                        className={`p-2 text-base hover:bg-vlorange hover:text-green text-vlorange bg-green
            
                         }
                 ${country
