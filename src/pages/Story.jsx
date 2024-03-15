@@ -1,13 +1,15 @@
-import Footer from "../components/Footer"
+import Footer from "../components/Reusable/Footer"
 import PhotoAlbum from "../components/Story/PhotoAlbum"
 
 const Story = () => {
     return (
-        <section className=" h-auto flex-row">
+        <section className="relative w-auto flex-row h-screen overflow-hidden">
+            <div className="  p-4 ">
 
-            <PhotoAlbum />
+                <PhotoAlbum />
+            </div>
             <Footer className="flex mt-10" />
-        </section>
+        </section >
     )
 }
 

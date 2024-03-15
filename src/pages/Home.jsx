@@ -1,5 +1,5 @@
 import { FormattedMessage } from "react-intl"
-import Footer from "../components/Footer"
+import Footer from "../components/Reusable/Footer"
 import scotlandBridge from '/src/assets/img/photos/scotlandBridgeCentered.jpg'
 import scotlandLake from '/src/assets/img/photos/scotlandLake.jpg'
 

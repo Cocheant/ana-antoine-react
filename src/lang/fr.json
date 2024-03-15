@@ -5,9 +5,13 @@
     "global.inConstruction1": "Désolé, revenez plus tard!",
     "global.inConstruction2": "En construction",
     "global.date": " Date à venir! ",
+    "global.language": "Langue",
+    "global.reportIssue": "Signaler un problème",
 
     "navbar.story": "Notre Histoire",
     "navbar.travelstay": "Voyage & Séjour",
+    "navbar.details": "Informations",
+
     "navbar.contact": "Nous contacter",
 
     "home.hero.gettingmarried": "On va se marier!",

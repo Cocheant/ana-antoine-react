@@ -1,11 +1,20 @@
-import Footer from "../components/Footer"
-import InConstruction from "../components/InConstruction"
+import Footer from "../components/Reusable/Footer"
+import InConstruction from "../components/Reusable/InConstruction"
 
 
 const TravelStay = () => {
+    const isInConstruction = true;
+
     return (
         <section className=" relative flex-row">
-            <InConstruction />
+            {isInConstruction === false &&
+                <div className="h-screen">
+
+
+                </div>}
+            {isInConstruction === true &&
+                <InConstruction />
+            }
             <Footer className="flex " />
         </section>
     )

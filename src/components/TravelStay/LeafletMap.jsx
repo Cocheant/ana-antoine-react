@@ -1,32 +1,51 @@
-import {
-    MapContainer,
-    TileLayer,
-    // eslint-disable-next-line no-unused-vars
-    useMap,
-} from 'https://cdn.esm.sh/react-leaflet'
+import React from 'react'
+import { MapContainer } from 'https://cdn.esm.sh/react-leaflet/MapContainer'
+import { TileLayer } from 'https://cdn.esm.sh/react-leaflet/TileLayer'
+import { useMap } from 'https://cdn.esm.sh/react-leaflet/hooks'
 
-import 'leaflet/dist/leaflet.css';
+
+import "leaflet/dist/leaflet.css";
+
 
 import { Marker, Popup } from 'leaflet'
+const ComponentResize = () => {
+    const map = useMap();
 
+    setTimeout(() => {
+        map.invalidateSize();
+    }, 0);
+
+    return null;
+};
 const LeafletMap = () => {
 
+    const position = [36.0339, 1.6596];
 
     return (
-        <div className="w-full h-auto relative ">
-            <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} style={{ height: '100vh', width: '100wh' }}>
-                <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                <Marker position={[51.505, -0.09]}>
-                    <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
-                    </Popup>
-                </Marker>
-            </MapContainer>
-        </div>
-    )
+        <MapContainer
+            style={{
+                height: "100%",
+                width: "100%",
+            }}
+            center={position}
+            attributionControl={true}
+            zoom={8}
+            minZoom={3}
+            scrollWheelZoom={true}
+        >
+            <ComponentResize />
+            <TileLayer
+                // className={'ion-hide'}
+                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={position}>
+                <Popup>
+                    A pretty CSS3 popup. <br /> Easily customizable.
+                </Popup>
+            </Marker>
+        </MapContainer>
+    );
 }
 
 export default LeafletMap

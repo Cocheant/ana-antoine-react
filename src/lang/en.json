@@ -5,13 +5,26 @@
     "global.inConstruction1": "Sorry, come back later! ",
     "global.inConstruction2": "In construction",
     "global.date": " Date to be determined! ",
+    "global.language": "Language",
+    "global.reportIssue": "Report Issue",
 
     "navbar.story": "Our Story",
     "navbar.travelstay": "Travel & Stay",
+    "navbar.details": "Details",
     "navbar.contact": "Contact Us",
 
     "home.hero.gettingmarried": "We are geting married!",
-    "home.secondText": " "
+    "home.secondText": " ",
 
+    "faq.answer1": "answer 1",
+    "faq.answer2": "answer 2",
+    "faq.answer3": "answer 3",
+    "faq.answer4": "answer 4",
+    "faq.answer5": "answer 5",
 
+    "faq.title1": "question 1",
+    "faq.title2": "question 2",
+    "faq.title3": "question 3",
+    "faq.title4": "question 4",
+    "faq.title5": "question 5"
 }

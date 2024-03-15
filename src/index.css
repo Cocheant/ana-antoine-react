@@ -85,6 +85,12 @@ body:has(.card[data-color="green"]:hover) {
     @apply bg-gradient-to-r from-[#B45309] to-[#FDBA74] bg-clip-text text-transparent
   }
 
+  .orange-gradient_bg {
+        @apply bg-gradient-to-r from-[#f8b164] to-[#ffae58] 
+
+  }
+
+
   .blue-gradient_text {
     @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
   }
@@ -114,7 +120,9 @@ body:has(.card[data-color="green"]:hover) {
   }
 
  
-  
+  .leaflet-container {
+    height: 300px;
+}
  
 
   .section {
