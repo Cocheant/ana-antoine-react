@@ -13,7 +13,7 @@ const LeafletMap = () => {
     return (
         <div className='w-full'>
 
-            <MapContainer className='h-96 w-3/6 ml-12 pr-12' center={[39.4338, -0.7138]} zoom={11} >
+            <MapContainer className='h-96 w-3/6 ml-12 pr-12' center={[39.4338, -0.7138]} zoom={10} >
                 <Marker position={[39.40332, -0.77131]}>
                     <Popup>
                         Molino Galán <br /> 46369 Alborache, Valencia, Espagne
