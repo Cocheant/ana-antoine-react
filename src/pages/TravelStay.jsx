@@ -1,21 +1,22 @@
-import Footer from "../components/Reusable/Footer"
-import InConstruction from "../components/Reusable/InConstruction"
+// import Footer from "../components/Reusable/Footer"
+// import InConstruction from "../components/Reusable/InConstruction"
+import LeafletMap from "../components/TravelStay/LeafletMap";
 
 
 const TravelStay = () => {
-    const isInConstruction = true;
+    // const isInConstruction = true;
 
     return (
-        <section className=" relative flex-row">
-            {isInConstruction === false &&
+        <section className="relative h-auto flex-row">
+            {/* {isInConstruction === false &&
                 <div className="h-screen">
 
 
                 </div>}
             {isInConstruction === true &&
                 <InConstruction />
-            }
-            <Footer className="flex " />
+            } */}
+            <LeafletMap />
         </section>
     )
 }

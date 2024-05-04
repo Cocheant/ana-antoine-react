@@ -36,7 +36,7 @@ const Contact = () => {
 
                 </div>
             </div>
-            <Footer className="flex " />
+            {/* <Footer className="flex " /> */}
         </section>
     )
 }

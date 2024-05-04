@@ -1,5 +1,4 @@
 import { FormattedMessage } from "react-intl"
-import Footer from "../components/Reusable/Footer"
 import scotlandBridge from '/src/assets/img/photos/scotlandBridgeCentered.jpg'
 import scotlandLake from '/src/assets/img/photos/scotlandLake.jpg'
 
@@ -52,7 +51,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <Footer className="flex mt-10" />
+            {/* <Footer className="flex mt-10" /> */}
+
         </section >
     )
 }

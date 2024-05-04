@@ -1,4 +1,3 @@
-import Footer from "../components/Reusable/Footer"
 import PhotoAlbum from "../components/Story/PhotoAlbum"
 
 const Story = () => {
@@ -8,7 +7,7 @@ const Story = () => {
 
                 <PhotoAlbum />
             </div>
-            <Footer className="flex mt-10" />
+            {/* <Footer className="flex mt-10" /> */}
         </section >
     )
 }
