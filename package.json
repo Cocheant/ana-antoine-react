@@ -20,6 +20,7 @@
     "react-leaflet": "4.2.0",
     "react-photo-album": "^2.3.1",
     "react-router-dom": "^6.22.3",
+    "react-scroll": "^1.9.0",
     "yet-another-react-lightbox": "^3.17.1"
   },
   "devDependencies": {

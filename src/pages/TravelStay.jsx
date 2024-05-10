@@ -7,7 +7,7 @@ const TravelStay = () => {
     // const isInConstruction = true;
 
     return (
-        <section className="relative h-auto flex-row">
+        <a href={'#travelstay'} className="relative h-auto flex-row">
             {/* {isInConstruction === false &&
                 <div className="h-screen">
 
@@ -17,7 +17,7 @@ const TravelStay = () => {
                 <InConstruction />
             } */}
             <LeafletMap />
-        </section>
+        </a>
     )
 }
 

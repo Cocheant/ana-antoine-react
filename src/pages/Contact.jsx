@@ -20,7 +20,7 @@ const Contact = () => {
                 <div className="flex h-auto  justify-center flex-row text-vlorange md:text-xl sm:text-xl text-xl font-semibold  pb-20">
                     <div className="flex justify-center ">
                         <a href="https://github.com/Cocheant/ana-antoine-react" target="_blank" >
-                            GitHub Source
+                            Source
                         </a>
                     </div>
                     <div className="flex justify-center pl-6">
