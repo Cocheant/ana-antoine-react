@@ -11,7 +11,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 const LeafletMap = () => {
 
     return (
-        <div className='w-full'>
+        <div className='max-w-7xl w-full'>
 
             <MapContainer className='h-96 w-3/6 ml-12 pr-12' center={[39.4338, -0.7138]} zoom={10} >
                 <Marker position={[39.40332, -0.77131]}>

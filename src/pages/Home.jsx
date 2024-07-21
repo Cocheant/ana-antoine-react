@@ -50,8 +50,6 @@ const Home = () => {
     return (
         <section className="relative h-auto flex-row">
 
-
-
             <div className="bg-hero bg-no-repeat  bg-center bg-fixed bg-cover h-screen"
                 style={{ backgroundImage: `url(${scotlandBridge})` }}>
 
@@ -59,61 +57,62 @@ const Home = () => {
                     id="home.hero.gettingmarried"
                     defaultMessage="We are getting married!"
                 /> </div>
-                <div className="md:text-8xl sm:text-7xl text-5xl flex justify-center text-vlorange pb-96"> <FormattedMessage
+                <div className="md:text-8xl sm:text-7xl text-5xl flex justify-center text-vlorange "> <FormattedMessage
                     id="global.names"
                     defaultMessage="Ana & Antoine"
                 />
                 </div>
 
-                <div className="flex justify-center pt-28">
+                <div className="flex justify-center">
 
                 </div>
 
-                <div className="sm:text-4xl md:text-5xl text-3xl flex justify-center  text-vlorange pb-96 mt-96 space-x-14">
 
-                    <div className="sm:text-3xl md:text-5xl text-3xl flex justify-center text-vlorange space-x-3">
-                        <div>
-                            {countDownDays}
-
-                        </div>
-                        <div>
-                            <FormattedMessage id="global.days" defaultMessage="days" />
-
-                        </div>
-
-                    </div>
-                    <div className="sm:text-4xl md:text-5xl text-3xl flex justify-center  text-vlorange space-x-3">
-                        <div>
-
-                            {countDownHours}
-                        </div>
-
-                        <div>
-
-                            <FormattedMessage id="global.hours" defaultMessage="hours" />
-                        </div>
-
-
-                    </div>
-                    <div className="sm:text-4xl md:text-5xl text-3xl flex justify-center text-vlorange space-x-3">
-                        <div>
-
-                            {countDownMinutes}
-                        </div>
-
-                        <div>
-
-                            <FormattedMessage id="global.minutes" defaultMessage="Minutes" />
-                        </div>
-
-
-                    </div>
-
-
-                </div>
 
             </div>
-            <div className="flex justify-center  pb-28 pt-28 bg-green/60">
+            <div className="sm:text-2xl md:text-5xl text-3xl flex justify-center  text-vlorange  pt-40 space-x-14">
+
+                <div className="sm:text-3xl md:text-5xl text-3xl flex justify-center text-vlorange space-x-3">
+                    <div>
+                        {countDownDays}
+
+                    </div>
+                    <div>
+                        <FormattedMessage id="global.days" defaultMessage="days" />
+
+                    </div>
+
+                </div>
+                <div className="sm:text-4xl md:text-5xl text-3xl flex justify-center  text-vlorange space-x-3">
+                    <div>
+
+                        {countDownHours}
+                    </div>
+
+                    <div>
+
+                        <FormattedMessage id="global.hours" defaultMessage="hours" />
+                    </div>
+
+
+                </div>
+                <div className="sm:text-4xl md:text-5xl text-3xl flex justify-center text-vlorange space-x-3">
+                    <div>
+
+                        {countDownMinutes}
+                    </div>
+
+                    <div>
+
+                        <FormattedMessage id="global.minutes" defaultMessage="Minutes" />
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div className="flex justify-center  pb-24  bg-green/60">
                 <div className="flex justify-center text-vlorange md:text-4xl sm:text-4xl text-3xl font-semibold  pt-20 pb-20">
                     <FormattedMessage
                         id="global.date"

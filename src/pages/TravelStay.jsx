@@ -7,7 +7,7 @@ const TravelStay = () => {
     // const isInConstruction = true;
 
     return (
-        <a href={'#travelstay'} className="relative h-auto flex-row">
+        <a href={'#travelstay'} className="relative flex w-full justify-center">
             {/* {isInConstruction === false &&
                 <div className="h-screen">
 
