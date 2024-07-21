@@ -70,9 +70,9 @@ const Home = () => {
 
 
             </div>
-            <div className="sm:text-2xl md:text-5xl text-3xl flex justify-center  text-vlorange  pt-40 space-x-14">
+            <div className="sm:text-2xl md:text-5xl text-3xl flex justify-center  text-vlorange  pt-36 sm:space-x-9 space-x-6 ">
 
-                <div className="sm:text-3xl md:text-5xl text-3xl flex justify-center text-vlorange space-x-3">
+                <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center text-vlorange  sm:space-x-2 space-x-3">
                     <div>
                         {countDownDays}
 
@@ -83,7 +83,7 @@ const Home = () => {
                     </div>
 
                 </div>
-                <div className="sm:text-4xl md:text-5xl text-3xl flex justify-center  text-vlorange space-x-3">
+                <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center  text-vlorange sm:space-x-2 space-x-3">
                     <div>
 
                         {countDownHours}
@@ -96,7 +96,7 @@ const Home = () => {
 
 
                 </div>
-                <div className="sm:text-4xl md:text-5xl text-3xl flex justify-center text-vlorange space-x-3">
+                <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center text-vlorange sm:space-x-2 space-x-3">
                     <div>
 
                         {countDownMinutes}
@@ -112,8 +112,8 @@ const Home = () => {
 
 
             </div>
-            <div className="flex justify-center  pb-24  bg-green/60">
-                <div className="flex justify-center text-vlorange md:text-4xl sm:text-4xl text-3xl font-semibold  pt-20 pb-20">
+            <div className="flex justify-center  pb-16  bg-green/60">
+                <div className="flex justify-center text-vlorange md:text-4xl sm:text-4xl text-3xl   pt-20 pb-20">
                     <FormattedMessage
                         id="global.date"
                         defaultMessage="Date to be determined"
