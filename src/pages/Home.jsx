@@ -70,9 +70,9 @@ const Home = () => {
 
 
             </div>
-            <div className="sm:text-2xl md:text-5xl text-3xl flex justify-center  text-vlorange  pt-36 sm:space-x-9 space-x-6 ">
+            <div className="sm:text-2xl md:text-5xl text-3xl flex justify-center  text-vlorange  pt-36 sm:space-x-9 space-x-4 ">
 
-                <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center text-vlorange  sm:space-x-2 space-x-3">
+                <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center text-vlorange  sm:space-x-3 space-x-1.5">
                     <div>
                         {countDownDays}
 
@@ -83,7 +83,7 @@ const Home = () => {
                     </div>
 
                 </div>
-                <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center  text-vlorange sm:space-x-2 space-x-3">
+                <div className="sm:text-3xl md:text-4xl text-2xl flex justify-center  text-vlorange sm:space-x-3 space-x-1.5">
                     <div>
 
                         {countDownHours}
