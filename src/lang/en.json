@@ -5,6 +5,10 @@
     "global.inConstruction1": "Sorry, come back later! ",
     "global.inConstruction2": "In construction",
     "global.date": " July 12th 2025 ",
+    "global.hours": "hours",
+    "global.minutes": "minutes",
+    "global.days": "days",
+
     "global.language": "Language",
     "global.reportIssue": "Report Issue",
 

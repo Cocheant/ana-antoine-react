@@ -7,6 +7,9 @@
     "global.date": " 12 Juillet 2025 ",
     "global.language": "Langue",
     "global.reportIssue": "Signaler un problème",
+    "global.hours": "heures",
+    "global.minutes": "minutes",
+    "global.days": "jours",
 
     "navbar.story": "Notre Histoire",
     "navbar.travelstay": "Voyage & Séjour",
